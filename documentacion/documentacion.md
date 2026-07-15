@@ -18,37 +18,37 @@ Una vez finalizada la compra, se ejecuta automáticamente un flujo de **Power Au
 
 ## Pantalla de inicio
 
-![Inicio](assets/inicio.png)
+![Inicio](../assets/inicio.png)
 
 ---
 
 ## Catálogo de productos
 
-![Catálogo](assets/catalogo.png)
+![Catálogo](../assets/catalogo.png)
 
 ---
 
 ## Detalle del producto
 
-![Detalle](assets/detalle-producto.png)
+![Detalle](../assets/detalle-producto.png)
 
 ---
 
 ## Carrito de compras
 
-![Carrito](assets/carrito.png)
+![Carrito](../assets/carrito.png)
 
 ---
 
 ## Confirmación de compra
 
-![Confirmación](assets/confirmacion.png)
+![Confirmación](../assets/confirmacion.png)
 
 ---
 
 ## Procesando compra
 
-![Procesando](assets/procesando.png)
+![Procesando](../assets/procesando.png)
 
 ---
 
