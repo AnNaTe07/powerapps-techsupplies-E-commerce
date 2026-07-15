@@ -52,6 +52,31 @@ Una vez finalizada la compra, se ejecuta automáticamente un flujo de **Power Au
 
 ---
 
+## Lista Productos (SharePoint)
+
+![Lista productos](../assets/lista-productos.png)
+
+---
+
+## Lista Carritos (SharePoint)
+
+![Lista carritos](../assets/lista-carritos.png)
+
+---
+
+## Lista Detalle Carritos (SharePoint)
+
+![Lista detalle carritos](../assets/lista-detalle-carritos.png)
+
+---
+
+## Flujo Power Automate
+
+![Flujo](../assets/flujo.png)
+
+---
+
+
 # Objetivos del proyecto
 
 Durante el desarrollo se buscó implementar un flujo de compra similar al utilizado en plataformas de comercio electrónico, aplicando los principales conceptos de Microsoft Power Platform.
