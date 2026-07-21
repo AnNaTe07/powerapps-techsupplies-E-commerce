@@ -2,6 +2,18 @@
 
 Aplicación desarrollada con **Microsoft Power Apps**, **SharePoint Online** y **Power Automate** para gestionar el proceso completo de compra de productos tecnológicos.
 
+# Contenido
+
+- [Descripción](#descripción)
+- [Objetivos](#objetivos)
+- [Caso de negocio](#caso-de-negocio)
+- [Tecnologías utilizadas](#tecnologías-utilizadas)
+- [Arquitectura](#arquitectura)
+- [Documentación](#documentación)
+- [Conceptos aplicados](#conceptos-aplicados)
+- [Estado del proyecto](#estado-del-proyecto)
+- [Autor](#autor)
+
 ---
 
 # Descripción
@@ -11,6 +23,33 @@ Aplicación desarrollada con **Microsoft Power Apps**, **SharePoint Online** y *
 La solución permite explorar un catálogo de productos, consultar información detallada, administrar un carrito de compras y registrar pedidos en SharePoint Online.
 
 Una vez confirmada la compra, se ejecuta automáticamente un flujo de **Power Automate** que envía un correo electrónico con el resumen del pedido realizado.
+
+---
+
+# Objetivos
+
+El proyecto fue desarrollado con los siguientes objetivos:
+
+- Gestionar la venta de productos tecnológicos.
+- Mostrar un catálogo dinámico de productos.
+- Administrar un carrito de compras.
+- Validar el stock disponible antes de confirmar la compra.
+- Registrar automáticamente los pedidos.
+- Automatizar el envío de correos de confirmación.
+- Integrar Power Apps, SharePoint Online y Power Automate.
+- Aplicar buenas prácticas de diseño e implementación utilizando Power Fx.
+
+---
+
+# Caso de negocio
+
+TechSupplies Minorista representa una tienda dedicada a la comercialización de productos tecnológicos.
+
+La aplicación permite a los clientes consultar el catálogo disponible, agregar productos al carrito y confirmar una compra desde una única interfaz.
+
+Cada pedido realizado se registra automáticamente en SharePoint Online y desencadena un flujo de Power Automate encargado de enviar una confirmación por correo electrónico con el detalle de la compra.
+
+La solución simula un proceso de venta simplificado, integrando distintos componentes de Microsoft Power Platform para automatizar el registro de pedidos y mejorar la experiencia del usuario.
 
 ---
 
@@ -161,7 +200,9 @@ Durante el desarrollo se implementaron los principales conceptos de Microsoft Po
 
 # Estado del proyecto
 
-Proyecto finalizado.
+🟢 Proyecto finalizado.
+
+La solución integra Microsoft Power Apps, SharePoint Online y Power Automate para administrar el proceso completo de compra de productos, desde la selección del catálogo hasta el envío automático de la confirmación por correo electrónico.
 
 ---
 
