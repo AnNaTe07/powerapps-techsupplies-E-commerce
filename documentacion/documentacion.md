@@ -2,6 +2,27 @@
 
 Aplicación desarrollada con **Microsoft Power Apps**, utilizando **SharePoint Online** como origen de datos y **Power Automate** para automatizar el envío de confirmaciones de compra.
 
+# Contenido
+
+- [Descripción del proyecto](#descripción-del-proyecto)
+- [Objetivos del proyecto](#objetivos-del-proyecto)
+- [Caso de negocio](#caso-de-negocio)
+- [Tecnologías utilizadas](#tecnologías-utilizadas)
+- [Arquitectura de la solución](#arquitectura-de-la-solución)
+- [Modelo de datos](#modelo-de-datos)
+- [Flujo de funcionamiento](#flujo-de-funcionamiento)
+- [Pantallas de la aplicación](#pantallas-de-la-aplicación)
+- [Variables principales](#variables-principales)
+- [Funcionalidades implementadas](#funcionalidades-implementadas)
+- [Integración con Power Automate](#integración-con-power-automate)
+- [Diseño de interfaz](#diseño-de-interfaz)
+- [Decisiones de diseño](#decisiones-de-diseño)
+- [Características destacadas](#características-destacadas)
+- [Conceptos aplicados](#conceptos-aplicados)
+- [Buenas prácticas](#buenas-prácticas)
+- [Posibles mejoras futuras](#posibles-mejoras-futuras)
+- [Conclusión](#conclusión)
+
 ---
 
 # Descripción del proyecto
@@ -508,6 +529,64 @@ Durante el desarrollo se implementaron los principales conceptos de Microsoft Po
 
 ---
 
+# Buenas prácticas
+
+Durante el desarrollo de la aplicación se implementaron distintas estrategias para mejorar la organización del código, facilitar el mantenimiento y optimizar la experiencia de usuario.
+
+---
+
+## Separación de responsabilidades
+
+La lógica de presentación, la manipulación de datos y la automatización de procesos fueron distribuidas entre Power Apps, SharePoint Online y Power Automate.
+
+Cada componente cumple una función específica dentro de la solución, favoreciendo una arquitectura más organizada y sencilla de mantener.
+
+---
+
+## Uso de colecciones para el carrito
+
+El carrito de compras fue implementado mediante una colección local de Power Apps.
+
+Esta estrategia permitió trabajar sobre la información sin realizar consultas permanentes a SharePoint, mejorando el rendimiento y la experiencia del usuario.
+
+---
+
+## Validaciones antes de registrar la compra
+
+Antes de confirmar el pedido se verifican automáticamente los datos obligatorios, evitando el registro de información incompleta y reduciendo posibles errores.
+
+---
+
+## Automatización mediante Power Automate
+
+El envío del correo electrónico de confirmación fue desacoplado de la aplicación mediante un flujo de Power Automate.
+
+Esta integración permite reutilizar la automatización y simplifica la lógica implementada en Power Apps.
+
+---
+
+## Diseño orientado a la experiencia de usuario
+
+La interfaz incorpora indicadores visuales de stock, ventanas de confirmación, una pantalla de procesamiento y controles dinámicos para facilitar el proceso de compra y reducir errores durante la interacción del usuario.
+
+---
+
+# Posibles mejoras futuras
+
+La solución fue diseñada para permitir futuras ampliaciones sin modificar la arquitectura principal.
+
+Entre las funcionalidades que podrían incorporarse se encuentran:
+
+- Integración con pasarelas de pago.
+- Historial de compras por cliente.
+- Gestión de usuarios autenticados.
+- Generación automática de facturas.
+- Integración con Power BI para indicadores de ventas.
+- Gestión de cupones y descuentos.
+- Panel administrativo para gestión del catálogo.
+
+---
+
 # Conclusión
 
 El desarrollo del Sistema de Ventas permitió implementar un flujo completo de compra utilizando Microsoft Power Platform.
@@ -515,3 +594,10 @@ El desarrollo del Sistema de Ventas permitió implementar un flujo completo de c
 La solución integra Power Apps, SharePoint Online y Power Automate para administrar el catálogo de productos, gestionar el carrito de compras, registrar pedidos y automatizar el envío de confirmaciones por correo electrónico.
 
 Durante el proyecto se aplicaron conceptos como navegación entre pantallas, colecciones, variables globales y de contexto, validaciones, operaciones CRUD mediante Power Fx e integración con servicios de Microsoft 365, obteniendo una aplicación funcional, organizada y orientada a mejorar la experiencia del usuario.
+
+---
+# Autor
+
+**Andrea Natalia Tello**
+
+- LinkedIn: https://www.linkedin.com/in/andrea-natalia-tello-623874325/
